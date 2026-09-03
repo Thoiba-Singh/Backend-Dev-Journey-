@@ -15,7 +15,6 @@ let isloggedIn = false
 // undefined => value is not defined
 // symbol = unique
 
-
 // object 
 
 console.log(typeof null); // undefined
