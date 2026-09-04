@@ -24,5 +24,37 @@ let booleanIsLoggedIn = Boolean(isloggedIn)
 let a = 33
 
 let A = String(a)
-console.log(A)
-console.log(typeof A)
+// console.log(A)
+// console.log(typeof A)
+
+// ********************************** Operations **************************************
+
+let value = 1
+
+let negvalue =  -value
+// console.log(negvalue);
+
+// console.log(2+2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2-2);
+// console.log(2/2);
+// console.log(2%2);
+
+let str1 = "Hello"
+let str2 = "Blaze"
+
+let str3 = str1 + " " + str2
+// console.log(str3);
+
+// console.log("1" + " " + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log(+true)
+// console.log(true+)
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter)
