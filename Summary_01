@@ -1,0 +1,16 @@
+/*
+Return Type of Variables in JavaScript
+1) Primitive DataTypes
+    Number => number
+    String => String
+    Boolean => Boolean
+    Null => Object
+    Undefined => undefined
+    Symbol => Symbol
+    BigInt => BigInt
+
+2) Non-Primitive(Reference) DataTypes
+    Arrays => Object
+    Functions => function
+    Object => Object
+*/
