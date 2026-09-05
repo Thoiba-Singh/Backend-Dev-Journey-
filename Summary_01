@@ -14,3 +14,37 @@ Return Type of Variables in JavaScript
     Functions => function
     Object => Object
 */
+
+
+// **************************************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+/*
+ In Stack it give us a copy of the original (i.e, changes will be done in the copy)
+In Heap, if we store a value then we get a reference of the original (i.e, changes will be 
+done in the original, not copy)
+*/
+
+let name = "Blaze"    // Stack
+
+let anothername = name
+anothername = "Blah"
+
+console.log(name);
+console.log(anothername);
+
+
+let userOne = {
+    email: "user@google.com", 
+    upi: "user@ybl"
+    
+}
+
+let userTwo = userOne
+
+userTwo.email = "Blaze@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
