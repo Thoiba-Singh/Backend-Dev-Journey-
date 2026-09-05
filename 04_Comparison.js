@@ -21,6 +21,6 @@ That's why null >= 0 is true, and null > 0 is false
 
 // console.log(undefined == 0);
 
-// '==='
+// '==='  In Triple Equal to symbol their the function check the equation as well as the data type
 
 console.log ("2" === 2)
