@@ -1,1 +1,1 @@
-S
+console.log("Blaze")
